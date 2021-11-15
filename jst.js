@@ -1,19 +1,42 @@
-var a = +prompt('Enter a number')
-var b = +prompt('Enter a degree')
-
-total = 1
-
-
-while (isNaN(a) || a == ' ' ) {
-    a = +prompt("Enter a number")
-}while (isNaN(b) || b == ' ' ){
-    b = +prompt("Enter a degree")
-}for (let i = 1; i <= b; i++) {
-    total = total * a
+while (isNaN(a) || a===0) {
+    var a = +prompt("Son kiriting")
+  }while (isNaN(b) || b===0) {
+    var b = +prompt("daraja kiriting")
+  }
+  
+  total=1
+  
+  for (let i = 1; i <=b; i++) {
+    total=total*a
     
-}
+  }
+  
+  alert("Result: " + total)
 
-alert("Result: " + total)
+
+
+
+
+
+
+
+// var a = +prompt('Enter a number')
+// var b = +prompt('Enter a degree')
+
+// total = 1
+
+
+// while (isNaN(a) || a == ' ' ) {
+//     a = +prompt("Enter a number")
+// }while (isNaN(b) || b == ' ' ){
+//     b = +prompt("Enter a degree")
+// }for (let i = 1; i <= b; i++) {
+//     total = total * a
+    
+// }
+
+// alert("Result: " + total)
+
 
 
 // if (isNaN(a) && isNaN(b)) {
