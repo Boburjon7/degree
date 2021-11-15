@@ -1,14 +1,36 @@
-// do{
-   var a = +prompt("Son kiriting biz uni toq yoki juftligini aniqlimiz ") 
-// }
-while (isNaN(a) || a==' '){
-    a = +prompt("Son kiriting biz uni toq yoki juftligini aniqlimiz ") 
+while (isNaN(a) || a===0){
+  var  a = +prompt("Son kiriting biz uni toq yoki juftligini aniqlimiz ") 
 }
-if(a % 2 ==0 ) {
+if(a % 2 == 0 ) {
     alert("juft son")
 }else if(a % 2==1) {
     alert("toq son")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // do{
+//    var a = +prompt("Son kiriting biz uni toq yoki juftligini aniqlimiz ") 
+// // }
+// while (isNaN(a) || a==' '){
+//     a = +prompt("Son kiriting biz uni toq yoki juftligini aniqlimiz ") 
+// }
+// if(a % 2 ==0 ) {
+//     alert("juft son")
+// }else if(a % 2==1) {
+//     alert("toq son")
+// }
 
 
 
